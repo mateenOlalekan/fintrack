@@ -25,7 +25,7 @@ export default function FullLayout() {
 
       <div className="flex pt-1 h-full">
         {/* Sidebar */}
-        <aside className="hidden md:block w-1/4 lg:w-1/5 xl:w-1/6 bg-white shadow h-[calc(100vh-4rem)]">
+        <aside className="hidden md:block w-1/4 lg:w-1/5 xl:w-1/6 bg-white">
           <Sidebar />
         </aside>
 
