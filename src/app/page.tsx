@@ -6,7 +6,7 @@ import LoadingScreen from './components/loading';
 import Sidebar from './components/layout/sidebar';
 import Main from './components/layout/main';
 import Tail from './components/Transactions/HomeTable';
-import Header from './components/layout/header';
+//import Header from './components/layout/header
 
 export default function FullLayout() {
   const [isLoading, setIsLoading] = useState(true);
@@ -30,7 +30,6 @@ export default function FullLayout() {
 
         {/* Main Content */}
         <main className="flex flex-col p-4 sm:p-6 lg:p-8 space-y-6 overflow-y-auto ">
-          <Header />
           <Main />
           <Tail />
         </main>
