@@ -6,7 +6,6 @@ import LoadingScreen from './components/loading';
 import Sidebar from './components/layout/sidebar';
 import Main from './components/layout/main';
 import Tail from './components/Transactions/HomeTable';
-//import Header from './components/layout/header
 
 export default function FullLayout() {
   const [isLoading, setIsLoading] = useState(true);
