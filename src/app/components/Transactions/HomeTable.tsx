@@ -6,7 +6,7 @@ import TransactionTable from "../../components/Transactions/TransactionTable";
 export default function Home() {
   return (
     <TransactionProvider>
-      <main className="bg-gray-50 min-h-screen">
+      <main className="bg-gray-50">
         <div className="w-full mx-auto">
           <TransactionTable />
         </div>
