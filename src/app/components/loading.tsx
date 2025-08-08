@@ -36,15 +36,15 @@ export default function LoadingScreen() {
 
         {/* Animated Dots */}
         <div className="flex items-center justify-center space-x-2">
-          <span className="w-2.5 h-2.5 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
-          <span className="w-2.5 h-2.5 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
-          <span className="w-2.5 h-2.5 bg-blue-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+          <span className="w-2.5 h-2.5 bg-[#4B8B9F]   rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+          <span className="w-2.5 h-2.5 bg-[#4B8B9F] rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+          <span className="w-2.5 h-2.5 bg-[#4B8B9F]  rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
         </div>
 
         {/* Progress Bar */}
         <div className="w-64 h-1 bg-gray-200 rounded-full overflow-hidden">
           <div
-            className="h-1 bg-blue-600 animate-progress rounded-full"
+            className="h-1 bg-[#4B8B9F] animate-progress rounded-full"
           ></div>
         </div>
       </div>
