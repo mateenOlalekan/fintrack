@@ -1,3 +1,4 @@
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -20,19 +21,17 @@ export default function FullLayout() {
   }
 
   return (
-    <div className="min-h-screen w-full">
-      <div className="flex flex-col md:flex-row w-full">
-        {/* Sidebar */}
-        <aside className="hidden md:block md:w-1/4 lg:w-1/5 xl:w-1/6 border-white border-r">
-          <Sidebar />
-        </aside>
+    <div className="h-screen w-full flex overflow-hidden">
+      {/* Sidebar */}
+      <aside className="hidden md:block md:w-1/4 lg:w-1/5 xl:w-1/6 border-r border-white">
+        <Sidebar />
+      </aside>
 
-        {/* Main Content */}
-        <main className=" flex flex-col  space-y-6 min-h-screen ">
-          <Main />
-          <Tail />
-        </main>
-      </div>
+      {/* Main Content with scroll */}
+      <main className="flex-1 h-full overflow-y-auto space-y-6 p-4 max-md:p-2 bg-gray-50 custom-scroll">
+        <Main />
+        <Tail />
+      </main>
     </div>
   );
 }
