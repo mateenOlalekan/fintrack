@@ -41,7 +41,7 @@ const FinTrackDashboard = () => {
 
   return (
     <div className="">
-        <div className="flex items-center justify-between mb-4">
+        <div className="flex items-center justify-between my-4">
         <div className="flex items-center space-x-2 max-md:space-x-1 ">
                       <h1 className="text-2xl max-md:text-lg sm:text-2xl font-bold text-gray-900">Wallet Ledger</h1>
                       <div className="flex items-center justify-between px-2 py-1 gap-2 max-md:gap-1 bg-green-100 text-green-800 rounded-full w-fit">
