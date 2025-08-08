@@ -20,7 +20,7 @@ export default function FullLayout() {
   }
 
   return (
-    <div className="min-h-screen overflow-hidden">
+    <div className="min-h-screen ">
 
 
       <div className="flex pt-1 h-full">
