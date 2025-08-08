@@ -40,7 +40,7 @@ const FinTrackDashboard = () => {
   };
 
   return (
-    <div className=" bg-[#FCFDFD]">
+    <div className="">
         <div className="flex items-center justify-between mb-4">
         <div className="flex items-center space-x-3 max-md:space-x-2 ">
                       <h1 className="text-2xl max-md:text-lg sm:text-2xl font-bold text-gray-900">Wallet Ledger</h1>
