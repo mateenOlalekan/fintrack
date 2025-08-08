@@ -28,7 +28,7 @@ export default function FullLayout() {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 flex flex-col p-4 sm:p-6 lg:p-8 space-y-6">
+        <main className="flex-1 flex flex-col p-2 sm:p-3 lg:p-4 space-y-6">
           <Main />
           <Tail />
         </main>
