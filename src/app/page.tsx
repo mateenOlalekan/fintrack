@@ -20,15 +20,15 @@ export default function FullLayout() {
   }
 
   return (
-    <div className="min-h-screen w-full bg-gray-50">
+    <div className="min-h-screen w-full">
       <div className="flex flex-col md:flex-row w-full">
         {/* Sidebar */}
-        <aside className="hidden md:block md:w-1/4 lg:w-1/5 xl:w-1/6 bg-white border-r min-h-screen">
+        <aside className="hidden md:block md:w-1/4 lg:w-1/5 xl:w-1/6 border-white border-r">
           <Sidebar />
         </aside>
 
         {/* Main Content */}
-        <main className=" flex flex-col  space-y-6    min-h-screen ">
+        <main className=" flex flex-col  space-y-6 min-h-screen ">
           <Main />
           <Tail />
         </main>
