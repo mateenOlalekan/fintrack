@@ -28,7 +28,7 @@ export default function FullLayout() {
       </aside>
 
       {/* Main Content with scroll */}
-      <main className="flex-1 h-full overflow-y-auto space-y-6  custom-scroll">
+      <main className="flex-1  space-y-6  custom-scroll">
         <Main />
         <Tail />
       </main>
