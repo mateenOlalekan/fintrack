@@ -21,7 +21,7 @@ export default function FullLayout() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 overflow-x-hidden">
+    <div className="min-h-screen">
       <div className="flex flex-col md:flex-row pt-1 h-full w-full">
         {/* Sidebar */}
         <aside className="hidden md:block md:w-1/4 lg:w-1/5 xl:w-1/6 bg-white border-r">
@@ -29,7 +29,7 @@ export default function FullLayout() {
         </aside>
 
         {/* Main Content */}
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 space-y-6 overflow-y-auto max-h-screen">
+        <main className="flex flex-col p-4 sm:p-6 lg:p-8 space-y-6 overflow-y-auto ">
           <Header />
           <Main />
           <Tail />
